@@ -74,7 +74,4 @@
         Me.BestFitness = best.Fitness
         best.Genes.CopyTo(Me.BestGenes, 0)
     End Sub
-    Private Function NextParent() As Genome(Of T)
-        Return Me.Random
-    End Function
 End Class
