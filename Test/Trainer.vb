@@ -1,5 +1,4 @@
 ﻿Imports Genetics
-Imports System.Text.RegularExpressions
 
 Public Class Trainer
     Public Property Pool As Pool(Of Char)
